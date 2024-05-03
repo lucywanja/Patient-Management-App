@@ -2,22 +2,6 @@
   "patients": [
     {
       "id": "1",
-      "name": "Jane Smith",
-      "age": 35,
-      "gender": "Female",
-      "diagnosis": "Type 2 Diabetes",
-      "medications": [
-        "Metformin",
-        "Insulin"
-      ],
-      "allergies": [
-        "None"
-      ],
-      "lastVisit": "2024-04-18",
-      "assignedDoctor": "Dr. Lee"
-    },
-    {
-      "id": "2",
       "name": "Michael Johnson",
       "age": 28,
       "gender": "Male",
@@ -33,7 +17,7 @@
       "assignedDoctor": "Dr. Patel"
     },
     {
-      "id": "3",
+      "id": "2",
       "name": "Emily Brown",
       "age": 60,
       "gender": "Female",
@@ -49,7 +33,7 @@
       "assignedDoctor": "Dr. Patel"
     },
     {
-      "id": "4",
+      "id": "3",
       "name": "David Wilson",
       "age": 50,
       "gender": "Male",
@@ -65,7 +49,7 @@
       "assignedDoctor": "Dr. Lee"
     },
     {
-      "id": "5",
+      "id": "4",
       "name": "Sarah Martinez",
       "age": 42,
       "gender": "Female",
@@ -81,7 +65,7 @@
       "assignedDoctor": "Dr. Smith"
     },
     {
-      "id": "6",
+      "id": "5",
       "name": "Christopher Taylor",
       "age": 55,
       "gender": "Male",
@@ -97,7 +81,7 @@
       "assignedDoctor": "Dr. Lee"
     },
     {
-      "id": "7",
+      "id": "6",
       "name": "Emma Anderson",
       "age": 30,
       "gender": "Female",
@@ -113,7 +97,7 @@
       "assignedDoctor": "Dr. Smith"
     },
     {
-      "id": "8",
+      "id": "7",
       "name": "James Garcia",
       "age": 38,
       "gender": "Male",
@@ -129,7 +113,7 @@
       "assignedDoctor": "Dr. Lee"
     },
     {
-      "id": "9",
+      "id": "8",
       "name": "Olivia Lopez",
       "age": 25,
       "gender": "Female",
@@ -145,7 +129,7 @@
       "assignedDoctor": "Dr. Smith"
     },
     {
-      "id": "10",
+      "id": "9",
       "name": "Noah Perez",
       "age": 32,
       "gender": "Male",
@@ -161,7 +145,7 @@
       "assignedDoctor": "Dr. Lee"
     },
     {
-      "id": "11",
+      "id": "10",
       "name": "Isabella Turner",
       "age": 22,
       "gender": "Female",
@@ -177,7 +161,7 @@
       "assignedDoctor": "Dr. Lee"
     },
     {
-      "id": "12",
+      "id": "11",
       "name": "William Scott",
       "age": 48,
       "gender": "Male",
@@ -193,7 +177,7 @@
       "assignedDoctor": "Dr. Smith"
     },
     {
-      "id": "13",
+      "id": "12",
       "name": "Sophia King",
       "age": 40,
       "gender": "Female",
@@ -209,7 +193,7 @@
       "assignedDoctor": "Dr. Lee"
     },
     {
-      "id": "14",
+      "id": "13",
       "name": "Alexander Adams",
       "age": 55,
       "gender": "Male",
@@ -225,15 +209,15 @@
       "assignedDoctor": "Dr. Smith"
     },
     {
-      "id": "15",
-      "name": "bvldj",
-      "age": "34",
+      "id": "14",
+      "name": "Lucy kariuki",
+      "age": "24",
       "gender": "Female",
-      "diagnosis": "TB",
-      "medications": "Ibruphen",
+      "diagnosis": "Headache",
+      "medications": "Priton",
       "allergies": "None",
-      "lastVisit": "2024-04-30",
-      "assignedDoctor": "hka"
+      "lastVisit": "2024-05-02",
+      "assignedDoctor": "Dr. John"
     }
   ],
   "doctors": [
@@ -246,6 +230,11 @@
       "id": "2",
       "name": "Dr. Jane",
       "contact": "0789809898"
+    },
+    {
+      "id": "3",
+      "name": "Dr.Test",
+      "contact": "7989898989"
     }
   ]
 }
