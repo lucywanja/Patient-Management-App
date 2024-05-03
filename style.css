@@ -1,0 +1,112 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+} */
+
+/* .navbar-vertical {
+    background: #0082e6;
+    color: white;
+    width: 200px; Adjust the width of the navbar 
+    height: 100vh;  Full height 
+    display: flex;
+    flex-direction: column; Arrange items vertically 
+    align-items: center;  Center items horizontally 
+} */
+
+/* label.logo {
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: bold;
+    margin: 20px 0;  Adjust the vertical margin 
+} */
+/* 
+ul {
+    padding: 0;
+    margin: 0;
+} */
+
+/* ul li {
+    margin-bottom: 40px;  Adjust the vertical margin 
+    background-color: #0082e6;
+    border-radius: 5px;
+    padding: 10px;
+} */
+
+/* ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 10px 13px; /* Adjust padding to increase space between links */
+    /*text-transform: uppercase; 
+}/*
+
+/* a.active, a:hover {
+    background: #1b9bff;
+    transition: .5s;
+} */
+body{
+    font-family:  sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* sidebar */
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background: #0e4a65;
+}
+/* style the CARE Logo */
+.sidebar header{
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+    background: #063146;
+    user-select:none;
+
+}
+label.logo{
+    font-weight: bold;
+    font-style: italic;
+
+}
+/* style the links */
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    /*space between the links  */
+    line-height: 85px;
+    font-size: 20px;
+    color: #fff; 
+    padding-left: 40px;
+    box-sizing: border-box;
+    /*kaline between the links  */
+    border-top: 1px solid rgba(255,255,255,.1);
+    /* kaline at the bottom */
+    border-bottom: 1px solid black;
+    transition: .4s; 
+    /* to make it smooth when hovering */
+}
+/* when you hover on the links they move */
+ul li:hover a{
+    padding-left: 50px;
+}
+
+.sidebar ul a i{
+    margin-right: 16px;
+}
+

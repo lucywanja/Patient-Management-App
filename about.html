@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Management App</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- copy the css link from boostrap 5 page -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assests/font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+        section {
+            background-image: url('./images/background.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100vh; /* Set height to fill the viewport */
+        }
+
+        .col-9 h3 {
+            /* Your CSS styles */
+            margin: 50px 0px;
+            color: #063146;
+            font-size: 55px;
+        }
+
+        .section-content{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            width: calc(50% - 40px);
+            padding: 20px;
+            margin: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: 0.3s ease;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+        }
+        .service:hover{
+            transform: translate(-5px);
+        }
+
+        .service i{
+            font-size: 20px;
+            color:#063146;
+            
+        }
+
+        .service a{
+            text-decoration: none;
+            font-size: 17px;
+            color: rgb(31, 84, 198);
+        }
+    </style>
+    
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidebar" >
+                    <header><label class ="logo"><i class="fa fa-hospital-o" aria-hidden="true"></i> CARE</label></header>
+                    <ul>
+                        <li><a href="index.html"><i class="fa fa-qrcode" aria-hidden="true"> Dashboard</i></a></li>
+                        <li><a href="patient.html"><i class="fa fa-users" aria-hidden="true"> Patients</i></a></li>
+                        <li><a href="doctors.html"><i class="fa fa-user-md" aria-hidden="true"> Doctors</i></a></li>
+                        <li><a href="about.html"><i class="fa fa-question-circle-o" aria-hidden="true"> About Us</i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-9 mt-4 pr-3">
+                <section class = "section-content">
+                    <div class="row m-3">
+                        <div class="col-9">
+                            <h3>Our Services</h3>
+                        </div>
+                            
+                    </div>
+
+                    <div class="service">
+                        <i class="fa fa-database" aria-hidden="true"></i>
+                        <h3><strong>Patient Records Management</strong></h3>
+                        <p>Efficiently manage patient information, including medical history, treatments, and prescriptions, with our comprehensive electronic health records (EHR) system.</p>
+                        <a href="">Learn More</a>
+
+                    </div>
+
+                    <div class="service">
+                        <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                        <h3><strong> Billing and Payment</strong></h3>
+                        <p>Streamline billing processes and ensure accurate payments with our integrated billing solutions, including insurance claims processing and secure online payment options.</p>
+                        <a href="">Learn More</a>
+
+                    </div>
+
+                </section>
+                          
+            </div>
+        </div>
+    </div>
+
+
+   
+     
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

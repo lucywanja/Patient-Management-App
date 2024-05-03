@@ -1,0 +1,251 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "name": "Jane Smith",
+      "age": 35,
+      "gender": "Female",
+      "diagnosis": "Type 2 Diabetes",
+      "medications": [
+        "Metformin",
+        "Insulin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lastVisit": "2024-04-18",
+      "assignedDoctor": "Dr. Lee"
+    },
+    {
+      "id": "2",
+      "name": "Michael Johnson",
+      "age": 28,
+      "gender": "Male",
+      "diagnosis": "Asthma",
+      "medications": [
+        "Albuterol",
+        "Fluticasone"
+      ],
+      "allergies": [
+        "Peanuts"
+      ],
+      "lastVisit": "2024-04-15",
+      "assignedDoctor": "Dr. Patel"
+    },
+    {
+      "id": "3",
+      "name": "Emily Brown",
+      "age": 60,
+      "gender": "Female",
+      "diagnosis": "Arthritis",
+      "medications": [
+        "Ibuprofen",
+        "Naproxen"
+      ],
+      "allergies": [
+        "Sulfa"
+      ],
+      "lastVisit": "2024-04-22",
+      "assignedDoctor": "Dr. Patel"
+    },
+    {
+      "id": "4",
+      "name": "David Wilson",
+      "age": 50,
+      "gender": "Male",
+      "diagnosis": "High Cholesterol",
+      "medications": [
+        "Atorvastatin",
+        "Simvastatin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lastVisit": "2024-04-19",
+      "assignedDoctor": "Dr. Lee"
+    },
+    {
+      "id": "5",
+      "name": "Sarah Martinez",
+      "age": 42,
+      "gender": "Female",
+      "diagnosis": "Migraine",
+      "medications": [
+        "Sumatriptan",
+        "Propranolol"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lastVisit": "2024-04-17",
+      "assignedDoctor": "Dr. Smith"
+    },
+    {
+      "id": "6",
+      "name": "Christopher Taylor",
+      "age": 55,
+      "gender": "Male",
+      "diagnosis": "Coronary Artery Disease",
+      "medications": [
+        "Aspirin",
+        "Clopidogrel"
+      ],
+      "allergies": [
+        "Shellfish"
+      ],
+      "lastVisit": "2024-04-21",
+      "assignedDoctor": "Dr. Lee"
+    },
+    {
+      "id": "7",
+      "name": "Emma Anderson",
+      "age": 30,
+      "gender": "Female",
+      "diagnosis": "Anxiety",
+      "medications": [
+        "Sertraline",
+        "Escitalopram"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lastVisit": "2024-04-16",
+      "assignedDoctor": "Dr. Smith"
+    },
+    {
+      "id": "8",
+      "name": "James Garcia",
+      "age": 38,
+      "gender": "Male",
+      "diagnosis": "GERD",
+      "medications": [
+        "Omeprazole",
+        "Ranitidine"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lastVisit": "2024-04-14",
+      "assignedDoctor": "Dr. Lee"
+    },
+    {
+      "id": "9",
+      "name": "Olivia Lopez",
+      "age": 25,
+      "gender": "Female",
+      "diagnosis": "Depression",
+      "medications": [
+        "Fluoxetine",
+        "Bupropion"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lastVisit": "2024-04-20",
+      "assignedDoctor": "Dr. Smith"
+    },
+    {
+      "id": "10",
+      "name": "Noah Perez",
+      "age": 32,
+      "gender": "Male",
+      "diagnosis": "Obesity",
+      "medications": [
+        "Orlistat",
+        "Phentermine"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lastVisit": "2024-04-18",
+      "assignedDoctor": "Dr. Lee"
+    },
+    {
+      "id": "11",
+      "name": "Isabella Turner",
+      "age": 22,
+      "gender": "Female",
+      "diagnosis": "Asthma",
+      "medications": [
+        "Albuterol",
+        "Fluticasone"
+      ],
+      "allergies": [
+        "Peanuts"
+      ],
+      "lastVisit": "2024-04-15",
+      "assignedDoctor": "Dr. Lee"
+    },
+    {
+      "id": "12",
+      "name": "William Scott",
+      "age": 48,
+      "gender": "Male",
+      "diagnosis": "Diabetes",
+      "medications": [
+        "Metformin",
+        "Insulin"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lastVisit": "2024-04-22",
+      "assignedDoctor": "Dr. Smith"
+    },
+    {
+      "id": "13",
+      "name": "Sophia King",
+      "age": 40,
+      "gender": "Female",
+      "diagnosis": "High Blood Pressure",
+      "medications": [
+        "Lisinopril",
+        "Amlodipine"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lastVisit": "2024-04-19",
+      "assignedDoctor": "Dr. Lee"
+    },
+    {
+      "id": "14",
+      "name": "Alexander Adams",
+      "age": 55,
+      "gender": "Male",
+      "diagnosis": "Heart Failure",
+      "medications": [
+        "Carvedilol",
+        "Furosemide"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "lastVisit": "2024-04-17",
+      "assignedDoctor": "Dr. Smith"
+    },
+    {
+      "id": "15",
+      "name": "bvldj",
+      "age": "34",
+      "gender": "Female",
+      "diagnosis": "TB",
+      "medications": "Ibruphen",
+      "allergies": "None",
+      "lastVisit": "2024-04-30",
+      "assignedDoctor": "hka"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. John",
+      "contact": "0765434345"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Jane",
+      "contact": "0789809898"
+    }
+  ]
+}
