@@ -97,20 +97,15 @@
       "assignedDoctor": "Dr. Smith"
     },
     {
-      "id": "7",
-      "name": "James Garcia",
-      "age": 38,
-      "gender": "Male",
       "diagnosis": "GERD",
-      "medications": [
-        "Omeprazole",
-        "Ranitidine"
-      ],
-      "allergies": [
-        "None"
-      ],
+      "medications": "Omeprazole,Ranitidine",
+      "allergies": "Peanuts",
       "lastVisit": "2024-04-14",
-      "assignedDoctor": "Dr. Lee"
+      "age": "38",
+      "gender": "Male",
+      "assignedDoctor": "Dr. Lee",
+      "name": "James Garcia",
+      "id": "7"
     },
     {
       "id": "8",
